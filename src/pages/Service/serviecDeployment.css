@@ -1,0 +1,197 @@
+.service-header {
+  margin-left: 6%;
+  padding: 10px 5px;
+  margin-bottom: 2px solid grey;
+  font-size: 20px;
+}
+.progress-sidemenu {
+  width: 30%;
+  height: calc(100vh - 104px - 50px);
+  /* overflow: scroll; */
+  background-color: rgba(240, 244, 246, 1);
+  position: relative;
+}
+.progress-sidemenu2 {
+  width: 5%;
+  height: calc(100vh - 104px - 50px);
+  /* overflow: scroll; */
+  background-color: rgba(240, 244, 246, 1);
+  padding-left: 15px;
+  position: relative;
+}
+
+.full-content {
+  overflow-y: auto;
+  z-index: 0;
+}
+.title-card {
+  border-bottom: 2px solid #cccccc;
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.api-deploy-service {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.card {
+  margin-top: 20px;
+}
+.card-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* .card-content {
+  padding: 20px;
+} */
+
+.uploaded-file-name {
+  margin-top: 10px;
+}
+.dropzone {
+  border: 1.5px dashed #f60923;
+  padding: 57px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(248, 249, 251, 1);
+  border-radius: 5px;
+}
+.dropzone1 {
+  border: 1.5px dashed #f60923;
+  padding: 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(248, 249, 251, 1);
+  border-radius: 5px;
+}
+
+.dropzone p {
+  margin: 0;
+}
+
+.browse {
+  color: #f60923;
+  text-decoration: none;
+}
+.browse1 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  text-decoration: none;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the file input */
+
+.dropzone input {
+  display: none;
+}
+
+/* Style for the "Drag & drop" text */
+
+.dropzone:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for the file upload button */
+
+.upload-button {
+  display: inline-block;
+  padding: 5px 0px;
+  background-color: #f60923;
+  color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #f60923;
+}
+
+/* Style for the response message */
+
+.post-data-response {
+  margin-top: 20px;
+
+  padding: 20px;
+
+  background-color: #e6e6e6;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  width: 80%;
+
+  margin: 20px auto;
+}
+
+.post-data-response pre {
+  margin: 0;
+
+  white-space: pre-wrap;
+}
+
+/* Style for the table */
+
+.data-table {
+  width: 80%;
+
+  margin: 20px auto;
+
+  border-collapse: collapse;
+}
+
+/* Style for table headers */
+
+.data-table th {
+  background-color: #007bff;
+
+  color: #fff;
+
+  border: 1px solid #ccc;
+
+  padding: 8px;
+}
+
+/* Style for table cells */
+
+.data-table td {
+  border: 1px solid #ccc;
+
+  padding: 8px;
+
+  text-align: left;
+}
+
+/* Add more styling as needed */
+.registration-partner-content1 {
+  width: 100%;
+}
+
+.drop-head-text {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.next-back-btn {
+  justify-content: end;
+  padding-right: 40px;
+}
+.registration-dataset2 {
+  width: 95%;
+}

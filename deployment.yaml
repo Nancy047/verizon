@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: verizon-ui
+  namespace: default
+  labels:
+    app: verizon-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: verizon-ui
+  template:
+    metadata:
+      labels:
+        app: verizon-ui
+    spec:
+      containers:
+        - name: verizon-ui
+          image: ""
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              cpu: 200m
+              memory: 2Gi
+            requests:
+              cpu: 100m
+              memory: 1Gi
+          

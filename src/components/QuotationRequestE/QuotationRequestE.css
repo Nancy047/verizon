@@ -1,0 +1,39 @@
+.dashboard-requestQuot-head {
+  width: 40%;
+}
+.dashboard-container-requestQuot {
+  margin-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #fff;
+}
+.dashboard-requestQuot-title {
+  font-size: 18px;
+  font-weight: 600;
+  /* padding: 10px; */
+  padding: 1rem;
+}
+.dashboard-requestQuot {
+  background-color: #fff;
+  /* padding: 10px; */
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.dashboard-requestQuot-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+.dashboard-side-requestQuot-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.requestQuot-cell-border {
+  border-bottom: 1px solid #d7dae0 !important;
+}
+.requestQuot-cell-border-2 {
+  border-bottom: 2px solid #009fd4 !important;
+  border-top: 2px solid #009fd4 !important;
+  color: #009fd4 !important;
+}

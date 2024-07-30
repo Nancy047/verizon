@@ -1,0 +1,312 @@
+// .login_container {
+//   width: calc(100dvw - 20px);
+//   height: calc(100dvh - 20px);
+//   background-color: #000000;
+//   padding: 10px;
+//   background-image: url("../../assets/images/login_bg.svg");
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-position: right;
+//   .logo_container{
+//     img{
+//         width: 30px;
+//     }
+//   }
+//   .login_body{
+//     display: flex;
+//     justify-content: space-between;
+//     width: 90%;
+//     align-items: center;
+//     margin: 20px auto;
+//     .login_left{
+//       margin-top: 12%;
+//       width: 50%;
+//         p{
+//             color: #dfdfdf;
+//         }
+//         .title{
+//             font-size: 40px;
+//         }
+//         .desc{
+//             font-size:27px;
+//         }
+//     }
+//   }
+// }
+.login_container {
+  min-height: 100vh;
+  // background-image: url("../../assets/images/login_bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-color: white;
+  background-size: contain;
+}
+.login-logo-img {
+  height: 70%;
+}
+.logo_container {
+  height: 8vh;
+}
+.title {
+  font-size: 40px;
+  color: #fff;
+}
+.desc {
+  font-size: 24px;
+  color: #fff;
+}
+.login_left {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  // padding: 20px;
+}
+.remember-me .MuiCheckbox-root {
+  padding: 0px !important;
+}
+.login_body {
+  height: 92vh;
+  display: flex;
+  justify-content: space-between;
+}
+.login-text-content {
+  // padding: 10px;
+  // margin-bottom: 30px;
+}
+.login_right {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.bgImg {
+  flex: 1; /* Takes available space */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+.image-overlay-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+
+  width: 50%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.image-overlay-subtext1{
+  margin: 0;
+  font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.89px;
+text-align: center;
+}
+.image-overlay-subtext2{
+  margin: 0;
+  font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 33.89px;
+text-align: center;
+}
+.MuiFormControl-root .MuiInputBase-root .MuiInputBase-input {
+  padding: 8.5px 9px;
+  font-size: 12px;
+}
+.login-card {
+  margin-top: 30px;
+  // height: 70%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  // border: 1px solid #ccc;
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    313deg,
+    rgba(255, 255, 255, 0.6) 17.48%,
+    rgba(0, 0, 0, 0) 85.95%,
+    #afafaf 112.24%,
+    rgba(96, 96, 96, 0) 95.43%
+  );
+  border-image-source: linear-gradient(
+    313deg,
+    rgba(255, 255, 255, 0.6) 17.48%,
+    rgba(0, 0, 0, 0) 85.95%,
+    #afafaf 112.24%,
+    rgba(96, 96, 96, 0) 95.43%
+  );
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+  // font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+.login-card p {
+  margin-bottom: 20px;
+  // font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+.login-subtext {
+  // font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  color: #757575;
+  font-weight: 500;
+  padding-top: 15px;
+}
+.login-destext {
+  // font-family: Nunito Sans;
+  // font-size: px;
+  color: #757575;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+.login-username {
+  width: 100%;
+}
+.login-username .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #999999 !important;
+}
+.login-password {
+  width: 100%;
+}
+.login-password .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #999999 !important;
+
+}
+.login-password .MuiInputBase-root input {
+  color: #999999;
+}
+.login-username .MuiInputBase-root input {
+  color: #999999;
+}
+
+// .login-card input {
+//   width: 100%;
+//   padding: 10px;
+//   margin-bottom: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+//   background: transparent;
+//   color: #DDDDFF;
+//   // font-family: Nunito Sans, sans-serif;
+//   font-weight: 400;
+//   justify-content: center;
+
+// }
+// .login-card input::placeholder{
+//   color: #DDDDFF;
+//   // font-family: 'Nunito Sans', sans-serif;
+//   font-weight: 400;
+// }
+.rem-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // width: 95%;
+  align-items: center;
+  padding: 5px 0px;
+}
+.remember-me {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  color: #f61c23;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.remember-me-text {
+  padding-left: 4px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+.forgot-password a {
+  color: #f61c23;
+
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+.image-style {
+  width: 125px;
+}
+.input-group {
+  // width: 90%;
+  background-color: transparent;
+  border: #ddddff;
+  padding: 10px 0px;
+}
+.input-group-label {
+  color: #757575;
+  // font-family: 'Nunito Sans', sans-serif;
+  // font-weight: 300;
+  padding-bottom: 10px;
+}
+.login_button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  color: rgba(255, 255, 255, 1);
+  // font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  justify-content: center;
+  background: linear-gradient(90deg, #f60923 0%, #f5ef1e 103.17%);
+}
+
+.bottom-text-above {
+  display: flex;
+  justify-content: center;
+  color: #757575;  // font-family: 'Inter', sans-serif;
+  // font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  // font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.bottom-container {
+  display: flex;
+}
+.bottom-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  width: 100%;
+  justify-content: space-between;
+   color: #757575;  // font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 10px;
+}

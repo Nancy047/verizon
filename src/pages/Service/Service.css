@@ -1,0 +1,143 @@
+.service-sidemenu {
+  width: 25%;
+}
+.service-body {
+  height: calc(100vh - 104px);
+  background-color: rgba(247, 250, 252, 1);
+  width: 75%;
+  overflow-y: scroll;
+}
+
+.service-details-container {
+  margin: 0px 15px;
+}
+.service-head-card {
+  background-color: #fff;
+  padding: 15px 15px 15px 25px;
+  border-radius: 3px;
+}
+.service-body-card {
+  background-color: #fff;
+  padding: 15px 15px 15px 25px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.service-5g {
+  background-color: rgba(4, 0, 187, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.service-edge {
+  background-color: rgba(138, 187, 0, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.service-ome {
+  padding: 10px;
+  background-color: rgba(138, 0, 187, 1);
+  height: 40px;
+  border-radius: 5px;
+}
+.service-prepaid {
+  background-color: rgba(187, 90, 0, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.service-item-image {
+  display: flex;
+  margin: 10px 0px;
+}
+.service-menutitle {
+  margin: auto 0px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.service-body-title {
+  font-size: 18px;
+  font-weight: 550;
+  padding-bottom: 15px;
+}
+.service-question-icon {
+  color: rgba(102, 102, 102, 1);
+  font-size: 16px !important;
+  position: absolute;
+  top: 10px;
+}
+.service-question-icon-head {
+  color: rgba(102, 102, 102, 1);
+  font-size: 16px !important;
+  position: absolute;
+  top: 6px;
+}
+.service-question {
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: 500;
+}
+.service-question-area {
+  position: relative;
+  padding: 5px 0px;
+}
+.service-Describe {
+  width: 80%;
+}
+.service-body-edgecomputing {
+  width: 80%;
+  padding: 10px 0px;
+}
+.service-body-edge-item {
+  width: 50%;
+}
+.service-field-width-end {
+  width: 100%;
+}
+.service-field-width {
+  width: 95%;
+}
+.service-body-requirements-head {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  margin-right: 10px;
+}
+.service-question-2 {
+  margin-right: 10px;
+}
+.service-addon-container {
+  width: 50%;
+}
+.service-addon-card {
+  margin: 5px 5px 10px 5px;
+  padding: 10px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 8px;
+}
+.service-addon-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.service-addon-subtitle {
+  font-weight: 600;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  height: calc(15px * var(--line-height));
+  cursor: pointer;
+}
+.service-addon-description {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  height: calc(14px * var(--line-height));
+  cursor: pointer;
+}

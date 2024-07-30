@@ -1,0 +1,19 @@
+.common-header-container {
+  height: 104px;
+  background-color: rgba(240, 244, 246, 1);
+}
+
+.common-header-card {
+  padding: 10px 15px;
+  background-color: rgba(240, 244, 246, 1);
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.common-header-search {
+  width: 100%;
+  background-color: rgba(245, 247, 251, 1);
+}
+.common-header-search .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border-width: 0px !important;
+  /* background-color: rgba(245, 247, 251, 1); */
+}

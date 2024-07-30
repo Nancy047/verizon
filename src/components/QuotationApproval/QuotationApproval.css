@@ -1,0 +1,63 @@
+
+.dashboard-quotation-head{
+    width: 45%;
+}
+.dashboard-container-quotation{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.dashboard-quotation-title{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.dashboard-quotation-subtitle{
+    color: rgba(69, 69, 69, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.dashboard-quotation-subtitle-d{
+    color: rgba(69, 69, 69, 1);
+    font-size: 14px;
+    font-weight: 600;
+}
+.dashboard-quotation-description{
+    color: rgba(102, 102, 102, 1);
+    font-size: 14px;
+}
+.dashboard-Quotationinfo{
+    background-color: rgba(247, 247, 247, 1);
+    /* padding: 10px; */
+}
+.custom-head .MuiTableRow-head{
+    border-top:1px solid rgba(224, 224, 224, 1)  ;
+    border-bottom:1px solid rgba(224, 224, 224, 1)  ;
+    
+}
+.custom-cell-border{
+    border-bottom: 1px solid #fff !important;
+}
+.custom-cell-border-2{
+    border-bottom: 2px solid #fff !important;
+    border-top: 2px solid #fff !important;
+
+}
+.rowRemovePadding{
+    padding: 0px 0px 10px 10px!important;
+}
+.custom-head .MuiTableRow-head .MuiTableCell-head{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+}
+.custom-body .MuiTableRow-root .MuiTableCell-body{
+    border-top:none ;
+    border-bottom:none  ;
+    padding: 10px;
+}
+.Quotation-table-Description{
+max-width: 40%;
+}
+.impField{
+    font-size: 17px !important;
+}

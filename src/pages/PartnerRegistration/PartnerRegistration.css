@@ -1,0 +1,205 @@
+.registration-container {
+  min-height: 100vh;
+  width: 100%;
+}
+.registration-tabs {
+  display: flex;
+}
+.registration-tab {
+  width: 33.33%;
+  text-align: center;
+  color: rgba(161, 161, 161, 1);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  border-bottom: 2px solid rgba(204, 204, 204, 1);
+  height: 7vh;
+}
+
+.registration-tab-completed {
+  background-color: rgba(248, 249, 251, 1);
+  color: #000000;
+  border-bottom: 2px solid #f60923;
+}
+.registration-tab-subcontent {
+  width: 33.33%;
+  background-color: rgba(248, 249, 251, 1);
+  height: 93vh;
+}
+
+.registration-tabsubcontent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.registration-tab-maincontent {
+  width: 66.66%;
+  height: 94vh;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: center;
+}
+.registration-dataset {
+  width: 70%;
+}
+.registration-dataset-title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+}
+.registration-partner-input {
+  width: 96%;
+}
+.registration-partner-input-right {
+  width: 100%;
+}
+.registration-partner-content {
+  width: 50%;
+}
+.registration-partner-content-3 {
+  width: 33.33%;
+}
+.registration-partner-BEmailID {
+  width: 100%;
+}
+.registration-partner-button {
+  min-width: 120px !important;
+}
+.registration-tab-maincontiner {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.registration-tab-numberCircleprogress {
+  background-color: rgba(248, 249, 251, 1) !important;
+  color: #f60923;
+  border: 1px solid #f60923 !important;
+}
+.registration-tab-numberCirclecompleted {
+  background-color: #f60923 !important;
+  color: #fff;
+  border: 1px solid #f60923 !important;
+}
+.registration-tab-info {
+  color: rgba(102, 102, 102, 1);
+}
+.registration-tabsubcontent-bottom {
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.registration-tab-info-content {
+  padding-left: 5px;
+  width: 90%;
+}
+.registration-step {
+  color: rgba(102, 102, 102, 1);
+  font-size: 18px;
+  padding: 0px 20px;
+}
+.registration-step-desc {
+  font-size: 26px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.registration-tab-numberCircle {
+  /* font-style: normal; */
+  width: 25px;
+  min-width: 25px;
+  background: #fff;
+  border-radius: 50%;
+  height: 25px;
+  border: 1px solid rgba(161, 161, 161, 1);
+  margin-right: 8px;
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-height: 600px) and (max-height: 650px) {
+  .registration-tab-subcontent {
+    height: 90vh;
+  }
+  .registration-tab {
+    height: 10vh;
+  }
+  .registration-tab-maincontent {
+    height: 90vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 650px) and (max-height: 700px) {
+  .registration-tab-subcontent {
+    height: 91vh;
+  }
+  .registration-tab {
+    height: 9vh;
+  }
+  .registration-tab-maincontent {
+    height: 91vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 700px) and (max-height: 800px) {
+  .registration-tab-subcontent {
+    height: 92vh;
+  }
+  .registration-tab {
+    height: 8vh;
+  }
+  .registration-tab-maincontent {
+    height: 92vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 800px) and (max-height: 900px) {
+  .registration-tab-subcontent {
+    height: 93vh;
+  }
+  .registration-tab {
+    height: 7vh;
+  }
+  .registration-tab-maincontent {
+    height: 93vh;
+  }
+
+  /* … */
+}
+@media screen and (min-height: 900px) and (max-height: 1100px) {
+  .registration-tab-subcontent {
+    height: 94vh;
+  }
+  .registration-tab {
+    height: 6vh;
+  }
+  .registration-tab-maincontent {
+    height: 94vh;
+  }
+}
+@media screen and (min-height: 1100px) and (max-height: 1300px) {
+  .registration-tab-subcontent {
+    height: 95vh;
+  }
+  .registration-tab {
+    height: 5vh;
+  }
+  .registration-tab-maincontent {
+    height: 95vh;
+  }
+}
+@media screen and (min-height: 1300px) and (max-height: 1600px) {
+  .registration-tab-subcontent {
+    height: 96vh;
+  }
+  .registration-tab {
+    height: 4vh;
+  }
+  .registration-tab-maincontent {
+    height: 96vh;
+  }
+}

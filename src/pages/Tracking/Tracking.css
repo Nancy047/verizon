@@ -1,0 +1,246 @@
+.tracking-sidemenu {
+  width: 25%;
+}
+.tracking-body {
+  height: calc(100vh - 104px);
+  background-color: rgba(247, 250, 252, 1);
+  width: 75%;
+  overflow-y: scroll;
+}
+.tracking-details-container {
+  margin: 0px 15px;
+}
+.tracking-image-list {
+  margin: 29px 0px;
+}
+.tracking-head-card {
+  background-color: #fff;
+  padding: 15px 15px 15px 25px;
+  border-radius: 3px;
+}
+.tracking-requestquote {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.tracking-body-card {
+  background-color: #fff;
+  /* padding: 15px 15px 15px 25px; */
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.tracking-5g {
+  background-color: rgba(4, 0, 187, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.tracking-edge {
+  background-color: rgba(138, 187, 0, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.requestquote-addon {
+  background-color: #fff;
+  padding: 15px 0px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.tracking-ome {
+  padding: 10px;
+  background-color: rgba(138, 0, 187, 1);
+  height: 40px;
+  border-radius: 5px;
+}
+.requestquote-addon-image {
+  width: 6%;
+}
+.requestquote-addon-content {
+  width: 94%;
+}
+.requestquote-addon-head {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 0px 0px 0px;
+}
+.requestquote-addon-card {
+  padding: 15px 25px 15px 25px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 8px;
+  margin: 15px 25px 15px 25px;
+}
+.requestquote-addon-subtitle {
+  color: rgba(69, 69, 69, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.requestquote-addon-description {
+  color: rgba(102, 102, 102, 1);
+}
+.tracking-prepaid {
+  background-color: rgba(187, 90, 0, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.tracking-item-image {
+  display: flex;
+  margin: 10px 0px;
+}
+.requestquote-head-card {
+  background-color: #fff;
+  padding: 15px 15px 15px 25px;
+  border-radius: 3px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
+  border-bottom-style: dashed;
+}
+.requestquote-fieldtitle {
+  color: rgba(85, 85, 85, 1);
+}
+.requestquote-fieldvalue {
+  color: rgba(5, 5, 5, 1);
+}
+.requestquote-item-image {
+  display: flex;
+  margin: 10px 0px;
+}
+.requestquote-5g {
+  background-color: rgba(4, 0, 187, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.requestquote-edge {
+  background-color: rgba(138, 187, 0, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.requestquote-datacontent {
+  width: 45%;
+}
+.requestquote-ome {
+  padding: 10px;
+  background-color: rgba(138, 0, 187, 1);
+  height: 40px;
+  border-radius: 5px;
+}
+.requestquote-prepaid {
+  background-color: rgba(187, 90, 0, 1);
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.requestquote-menutitle {
+  margin: auto 0px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.requestquote-checkbox {
+  width: 5%;
+}
+.tracking-menutitle {
+  margin: auto 0px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.requestquote-datas {
+  /* width: 100%; */
+  justify-content: space-around;
+  flex-direction: column;
+}
+.requestquote-head {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 15px 15px 25px;
+}
+.requestquote-bottom-head {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 15px 15px 25px;
+}
+.requestquote-addon-margin {
+  padding: 0px 35px;
+}
+.requestquote-midcontent {
+  width: 50%;
+}
+.requestquote-checkmenu {
+  padding: 15px 15px 15px 25px;
+  background-color: rgba(240, 244, 246, 1);
+}
+.tracking-body-title {
+  font-size: 18px;
+  font-weight: 550;
+  padding-bottom: 15px;
+}
+.tracking-question-icon {
+  color: rgba(102, 102, 102, 1);
+  font-size: 16px !important;
+  position: absolute;
+  top: 10px;
+}
+.tracking-question-icon-head {
+  color: rgba(102, 102, 102, 1);
+  font-size: 16px !important;
+  position: absolute;
+  top: 6px;
+}
+.tracking-question {
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: 500;
+}
+.tracking-question-area {
+  position: relative;
+  padding: 5px 0px;
+}
+.tracking-Describe {
+  width: 80%;
+}
+.tracking-body-edgecomputing {
+  width: 80%;
+  padding: 10px 0px;
+}
+.tracking-body-edge-item {
+  width: 50%;
+}
+.tracking-field-width-end {
+  width: 100%;
+}
+.tracking-field-width {
+  width: 95%;
+}
+.tracking-body-requirements-head {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  margin-right: 10px;
+}
+.tracking-question-2 {
+  margin-right: 10px;
+}
+.tracking-list-container {
+  width: 25%;
+}
+.tracking-list-card {
+  margin: 20px 10px 10px 0px;
+  padding: 5px 10px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 4px;
+}
+.tracking-list-heading {
+  padding-top: 12px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+.tracking-list-Count {
+  padding-top: 16px;
+  font-size: 28px;
+  font-weight: 600;
+  padding-left: 5px;
+}

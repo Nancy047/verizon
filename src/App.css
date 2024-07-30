@@ -1,0 +1,250 @@
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* common css */
+.d-flex {
+  display: flex;
+}
+.d-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.my-1 {
+  margin: 0.5rem 0rem !important;
+}
+.m-2 {
+  margin: 1rem;
+}
+.my-2 {
+  margin: 1rem 0rem !important;
+}
+.mx-2 {
+  margin: 0rem 1rem !important;
+}
+.mt-4 {
+  margin-top: 2rem !important;
+}
+.ml-2 {
+  margin-left: 1rem;
+}
+.ml-1 {
+  margin-left: 0.5rem;
+}
+.ml-3 {
+  margin-left: 1.5rem;
+}
+.mx-2 {
+  margin: 0px 1rem !important;
+}
+.mt-1 {
+  margin-top: 0.5rem !important;
+}
+.mt-2 {
+  margin-top: 1rem !important;
+}
+.mt-3 {
+  margin-top: 1.5rem !important;
+}
+.pl-1 {
+  padding-left: 0.5rem;
+}
+.pr-1 {
+  padding-right: 0.5rem;
+}
+.pr-2 {
+  padding-right: 1rem;
+}
+
+.pl-2 {
+  padding-left: 1rem;
+}
+.py-1 {
+  padding: 0.5rem 0rem;
+}
+.py-1 {
+  padding: 0.5rem 0rem;
+}
+.py-2 {
+  padding: 1rem 0rem;
+}
+.py-3 {
+  padding: 1.5rem 0rem;
+}
+.pb-1 {
+  padding-bottom: 0.5rem;
+}
+.pl-3 {
+  padding-left: 1.5rem;
+}
+.p-1 {
+  padding: 0.5rem;
+}
+.pb-05 {
+  padding-bottom: 0.25rem;
+}
+.px-2 {
+  padding: 0rem 1rem;
+}
+.bg-black {
+  background-color: rgba(51, 51, 51, 1) !important;
+}
+.color-white {
+  color: #fff !important;
+}
+.mY-auto {
+  margin: auto 0px;
+}
+.text-left {
+  text-align: left;
+}
+.flex-row {
+  flex-direction: column;
+}
+.Mui-checked {
+  padding: 0px 9px !important;
+}
+.MuiCheckbox-root {
+  padding: 0px 9px !important;
+}
+/* .css-11hzah3-MuiButtonBase-root-MuiCheckbox-root{
+
+} */
+.text-center {
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.mb-05 {
+  margin-bottom: 0.25rem;
+}
+.p-3 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 1rem;
+}
+.pb-2 {
+  padding-bottom: 1rem;
+}
+.pt-2 {
+  padding-top: 1rem;
+}
+.p-4 {
+  padding: 2rem;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.bg-att {
+  background-color: #f60923 !important;
+}
+.bg-white {
+  background-color: white;
+}
+.border-att {
+  border-color: #f60923 !important;
+}
+.color-att {
+  color: #f60923 !important;
+}
+.custom-button {
+  /* padding: 8.5px 9px !important; */
+  font-size: 12px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #f60923 !important;
+}
+.MuiInputBase-root .MuiSelect-select {
+  padding: 8.5px 9px;
+}
+.MuiButton-root {
+  font-family: unset !important;
+  font-weight: unset !important;
+  font-size: unset !important;
+  box-shadow: unset !important;
+  text-transform: capitalize !important;
+}
+.MuiFormControl-root .MuiInputBase-root .MuiInputBase-input {
+  padding: 8.5px 9px;
+}
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+  padding: 0px !important;
+}
+.css-1pnmrwp-MuiTypography-root {
+  font-size: 12px !important;
+}
+::-webkit-scrollbar:hover {
+  width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 5px whitesmoke;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(207, 212, 209);
+  border-radius: 5px;
+}
+
+.drawer-content {
+  width: 90px;
+}
+.drawer-body {
+  width: calc(100% - 90px);
+}
+@media only screen and (max-width: 600px) {
+  .drawer-content {
+    width: 0px;
+  }
+  .drawer-body {
+    margin-top: 60px;
+    width: 100%;
+  }
+}

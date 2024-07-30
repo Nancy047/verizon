@@ -1,0 +1,256 @@
+.dashboard-container-main {
+  background-color: rgba(240, 244, 246, 1);
+  height: calc(100vh - 104px);
+  overflow-y: scroll;
+}
+
+.dashboard-container {
+  /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+.dashboard-text-heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+.dash-title {
+  display: flex;
+  align-items: center;
+}
+.tb-row .css-34nofg-MuiTableRow-root:hover {
+  background-color: #f2f6f9 !important;
+}
+.tb-row .tb-active {
+  background-color: #f2f6f9 !important;
+}
+.dashboard-menutitle {
+  font-family: "Inter", sans-serif;
+  color: rgba(51, 51, 51, 1);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px;
+  padding-left: 5px;
+}
+.daschboard-tracking-card {
+  background-color: #fff;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  /* margin-top: 15px; */
+}
+.dashboard-table-card {
+  background-color: #fff;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+.dashboard-container-mainarea {
+  width: 75%;
+  height: calc(100vh - 104px);
+  overflow-y: scroll;
+}
+.dashboard-side-container {
+  width: 25%;
+  height: calc(100vh - 104px);
+  overflow-y: scroll;
+}
+.dashboard-sidearea-container {
+  height: calc(100vh - 104px);
+  background-color: #fff;
+  /* margin-top: 15px; */
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dashboard-side-container-heading {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.dashboard-side-container-body {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.dashboard-side-container-body2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.dashboard-side-container-desc-head {
+  color: rgba(102, 102, 102, 1);
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 15px;
+  width: 50%;
+}
+.dashboard-side-container-desc-text {
+  color: rgba(51, 51, 51, 1);
+  font-size: 14px;
+  font-weight: 600;
+  width: 50%;
+}
+
+.dashboard-side-container-desc-head2 {
+  color: rgba(73, 73, 73, 1);
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.dashboard-side-container-desc-text2 {
+  color: rgba(94, 100, 112, 1);
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-top: 4px;
+}
+
+.side-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dashboard-side-button {
+  font-size: 12px;
+  width: 80%;
+  padding: 5px;
+  border-radius: 0px !important;
+}
+
+.dash-search {
+  width: 100%;
+}
+
+.dashboard-header-search {
+  width: 100%;
+  background-color: #fff;
+}
+.dashboard-header-search .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border: 1px solid rgba(153, 153, 153, 1);
+  border-radius: 0px;
+}
+
+.dash-dropdown {
+  margin-top: 10px;
+  width: 15%;
+}
+.dashboard-desc-text-head {
+  border-bottom: 1px solid #cccccc;
+  width: 100%;
+}
+.dashboard-desc-text {
+  padding-right: 10px;
+}
+.numberCircle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+}
+.dashboard-text-circle {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  background-color: white;
+  justify-content: center;
+  padding: 15px 10px;
+}
+.MuiTableCell-head {
+  background-color: rgba(224, 224, 224, 1) !important;
+}
+.tab-active {
+  border-bottom: 1px solid #00a8e0;
+}
+
+.dashline {
+  height: 2px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgba(204, 204, 204, 1);
+}
+.tab-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashboard-table-button {
+  font-size: 8px;
+  width: 80%;
+  padding: 5px;
+  border-radius: 2px !important;
+  color: rgba(255, 255, 255, 1);
+}
+.dashboard-table-button-view {
+  font-size: 8px;
+  width: 80%;
+  padding: 5px;
+  border-radius: 2px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: rgba(0, 168, 224, 1) !important;
+  border: 1px solid rgba(0, 168, 224, 1) !important;
+}
+
+.dashboard-quotation-head {
+  width: 45%;
+}
+.dashboard-quotation-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+}
+.dashboard-quotation-subtitle {
+  color: rgba(69, 69, 69, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.dashboard-quotation-subtitle-d {
+  color: rgba(69, 69, 69, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+.dashboard-quotation-description {
+  color: rgba(102, 102, 102, 1);
+  font-size: 14px;
+}
+.dashboard-Quotationinfo {
+  background-color: rgba(247, 247, 247, 1);
+  /* padding: 10px; */
+}
+.custom-head .MuiTableRow-head {
+  border-top: 1px solid rgba(224, 224, 224, 1);
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+.custom-cell-border {
+  border-bottom: 1px solid #fff !important;
+}
+.custom-cell-border-2 {
+  border-bottom: 2px solid #fff !important;
+  border-top: 2px solid #fff !important;
+}
+.rowRemovePadding {
+  padding: 0px 0px 10px 10px !important;
+}
+.custom-head .MuiTableRow-head .MuiTableCell-head {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+}
+.custom-body .MuiTableRow-root .MuiTableCell-body {
+  border-top: none;
+  border-bottom: none;
+  padding: 10px;
+}
+.Quotation-table-Description {
+  max-width: 40%;
+}
+.impField {
+  font-size: 17px !important;
+}
+
+

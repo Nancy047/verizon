@@ -1,0 +1,65 @@
+.block-container {
+  padding: 15px;
+  border: 2px solid #cccccc;
+  display: flex;
+  border-radius: 5px;
+}
+.block-container img {
+  margin-right: 10px;
+}
+.block-container:hover {
+  background-color: #00a8e0;
+  color: #ffffff;
+}
+.servicedeploy-item {
+  padding: 10px 15px;
+}
+.registration-tab-numberCircle2 {
+  width: 35px;
+  min-width: 25px;
+  border-radius: 50%;
+  height: 35px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(51, 51, 51, 1);
+  background: rgba(227, 240, 244, 1);
+  border: 1px solid #f60923 !important;
+}
+.active {
+  background: linear-gradient(180deg, #F60923 -35.14%, #F5E41E 160.81%);
+  color: white;
+}
+.level-layer {
+  z-index: 1;
+}
+.progress-main-menu {
+  border: " linear-gradient(180deg, #F60923 -35.14%, #F5E41E 160.81%)";
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 5px;
+
+
+  border-image-source: linear-gradient(90deg, #F60923 0%, #F5E41E 100%);
+  
+  }
+.completed {
+  background: linear-gradient(180deg, #F60923 -35.14%, #F5E41E 160.81%);
+  color: white;
+}
+.toggle_switch_main_side {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  position: absolute;
+  right: -1.5vw;
+}
+.toggle_switch_side {
+  background: #f60923;
+  border-radius: 15px;
+  color: white;
+}
+.submenu-toggle {
+  padding-left: 5px;
+}

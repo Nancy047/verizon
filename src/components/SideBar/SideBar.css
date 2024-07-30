@@ -1,0 +1,147 @@
+.sidebar-container {
+  height: 100vh;
+  border-image: linear-gradient(
+      0deg,
+      #00b1eb 0%,
+      #0096d3 56.22%,
+      #04bf00 100.99%
+    )
+    100;
+  /* border-width: 4px;
+border-style: solid; */
+  border-left: 5px solid;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 10px; */
+  background-color: #000000;
+  color: #fff;
+}
+.sidebar-head {
+  text-align: center;
+  height: 7vh;
+  padding: 10px;
+}
+
+.sidebar-bottom {
+  text-align: center;
+  height: 7vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 5px;
+}
+.sidebar-content {
+  max-height: 85vh;
+  /* overflow: scroll; */
+}
+.siderbar-logo {
+  height: 35px;
+}
+.siderbar-avatar {
+  height: 40px !important;
+  width: 40px !important;
+}
+.sidebar-active {
+  color: rgba(0, 168, 224, 1);
+}
+.sidebar-text {
+  font-size: 14px;
+}
+.sidebar-option_icon {
+  height: 25px;
+}
+.sidebar-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sidebar-item:hover {
+  background: rgba(34, 34, 34, 1);
+}
+.sidebar-item-selected {
+  background: rgba(34, 34, 34, 1);
+}
+
+@media screen and (min-height: 600px) and (max-height: 650px) {
+  .sidebar-content {
+    height: 80vh;
+  }
+  .sidebar-head {
+    height: 10vh;
+  }
+  .sidebar-bottom {
+    height: 10vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 650px) and (max-height: 700px) {
+  .sidebar-content {
+    height: 82vh;
+  }
+  .sidebar-head {
+    height: 9vh;
+  }
+  .sidebar-bottom {
+    height: 9vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 700px) and (max-height: 800px) {
+  .sidebar-content {
+    height: 84vh;
+  }
+  .sidebar-head {
+    height: 8vh;
+  }
+  .sidebar-bottom {
+    height: 8vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 800px) and (max-height: 900px) {
+  .sidebar-content {
+    height: 86vh;
+  }
+  .sidebar-head {
+    height: 7vh;
+  }
+  .sidebar-bottom {
+    height: 7vh;
+  }
+
+  /* … */
+}
+@media screen and (min-height: 900px) and (max-height: 1100px) {
+  .sidebar-content {
+    height: 88vh;
+  }
+  .sidebar-head {
+    height: 6vh;
+  }
+  .sidebar-bottom {
+    height: 6vh;
+  }
+}
+@media screen and (min-height: 1100px) and (max-height: 1300px) {
+  .sidebar-content {
+    height: 90vh;
+  }
+  .sidebar-head {
+    height: 5vh;
+  }
+  .sidebar-bottom {
+    height: 5vh;
+  }
+}
+@media screen and (min-height: 1300px) and (max-height: 1600px) {
+  .sidebar-content {
+    height: 92vh;
+  }
+  .sidebar-head {
+    height: 4vh;
+  }
+  .sidebar-bottom {
+    height: 4vh;
+  }
+}

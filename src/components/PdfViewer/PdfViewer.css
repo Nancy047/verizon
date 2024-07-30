@@ -1,0 +1,31 @@
+.download_main {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border: 1px dashed #f60923;
+  /* justify-content: center; */
+  align-items: center;
+}
+.download_main_left {
+  font-size: 24px;
+  width: 15%;
+  padding-left: 10px;
+}
+.download_main_center {
+  width: 70%;
+}
+.download_main_right {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+}
+.right_line_download {
+  width: 1px;
+  background-color: rgba(204, 204, 204, 1);
+}
+.css-1d6wzja-MuiButton-startIcon {
+  display: inherit;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}

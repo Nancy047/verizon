@@ -1,0 +1,122 @@
+.category-menu-container {
+  height: 88vh;
+  width: 20%;
+}
+.Category-container {
+  display: flex;
+}
+@media screen and (min-height: 600px) and (max-height: 650px) {
+  .category-menu-container {
+    height: 77vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 650px) and (max-height: 700px) {
+  .category-menu-container {
+    height: 84vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 700px) and (max-height: 800px) {
+  .category-menu-container {
+    height: 86vh;
+  }
+  /* … */
+}
+@media screen and (min-height: 800px) and (max-height: 900px) {
+  .category-menu-container {
+    height: 87vh;
+  }
+
+  /* … */
+}
+@media screen and (min-height: 900px) and (max-height: 1100px) {
+  .category-menu-container {
+    height: 79vh;
+  }
+}
+@media screen and (min-height: 1100px) and (max-height: 1300px) {
+  .category-menu-container {
+    height: 90vh;
+  }
+}
+@media screen and (min-height: 1300px) and (max-height: 1600px) {
+  .category-menu-container {
+    height: 91vh;
+  }
+}
+.category-head {
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 5vh;
+  padding: 10px 15px;
+}
+.category-menutitle {
+  color: rgba(102, 102, 102, 1);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+.categorymenu-item {
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.category-body-container {
+  height: 86vh;
+  width: 80%;
+}
+.category-desc-card-1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 10px;
+  height: 20%;
+  margin: 15px;
+  padding: 5px 10px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 5px;
+  background-color: rgba(249, 249, 249, 1);
+  cursor: pointer;
+}
+.category-desc-left {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.cat_left_text {
+  padding-left: 10px;
+
+  color: rgba(69, 69, 69, 1);
+}
+.cat_right_line {
+  width: 1px;
+  background-color: rgba(204, 204, 204, 1);
+}
+.category-desc-right {
+  width: 70%;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+}
+.right-text-1 {
+  font-size: 16px;
+  color: rgba(51, 51, 51, 1);
+  padding: 10px;
+}
+.right-main-desc {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.right-desc-1 {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.right-desc-img {
+  padding-right: 8px;
+}
+.right-desc-img1 {
+  padding-right: 8px;
+  width: 25px;
+}
